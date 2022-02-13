@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 5em;
+}
+
+.card {
+    width: 200px;
+    height: 300px;
+    padding: .4em;
+    border-radius: .4em;
+    border: 1px solid grey;
+    background-color: white;
+}
+
+.top-card {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-value > span {
+    font-size: 2em;
+    padding: 0px .2em;
+}
+
+.card-value > figure {
+    width: 30px;
+}
+
+.main-icon {
+    width: 10em;
+    height: 10em;
+    margin: 0 auto;
+}
+
+img {
+    width: 100%;
+}
+
+.overlap {
+    margin-left: -11em;
+    box-shadow: -.1em 0px rgba(0, 0, 0, 0.365);
+}
+
+.rotated {
+    transform: rotate(0.5turn);
+}
